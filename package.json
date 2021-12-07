@@ -1,0 +1,22 @@
+{
+  "name": "wawh-auth-proxy-wvz",
+  "main": "server.js",
+  "description": "Watson Assistant Webhook Proxy Authenticator Cloudfoundry Application",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cfenv": "^1.2.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0"
+  },
+  "author": "Werner Vanzyl",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
